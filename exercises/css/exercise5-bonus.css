@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+    background-color: #9EECFF;
+}
+h1 {
+    color: #5E678F;
+    background-color: #D1F6FF;
+    padding: 25px;
+}
+h2 {
+    color: #5E678F;
+    background-color: #A2B3FE;
+    padding: 15px;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.paraone {
+    background-color: #D1D7EF;
+}

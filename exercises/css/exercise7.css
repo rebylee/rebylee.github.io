@@ -1,0 +1,51 @@
+body {
+    color: black;
+    background-color: #FFEFEF;
+    font-family: 'Tenor Sans', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+p {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: #D3D3D3;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: #AD7777;
+    font-family: 'Mali', cursive;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+a.button:link {
+    color: #FF1493;
+    border: 1px solid #FF1493;
+    background-color: #fff3fc;
+    padding: 10px;
+    position: relative;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.button:active {
+    color: red;
+    border: 1px solid red;
+    background-color: #FFADAD;
+}
+
+a.button:visited {
+    color: #9048AC;
+    border: 1px solid #9048AC;
+    background-color: #F7E1FF;
+}
+
+a.button:hover {
+    color: #404AFF;
+    border: 1px solid #404AFF;
+    background-color: #D5D7F9;
+}

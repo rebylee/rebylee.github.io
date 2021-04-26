@@ -1,0 +1,72 @@
+header {
+    background-color: #FBD8D8;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: -10px 8px 5px -5px black;
+    grid-area: header;
+}
+.welcome {
+    background-color: #FFC7E1;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: -10px 8px 5px -5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: welcome;
+}
+.rockimage {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -10px 8px 5px -5px black;
+    grid-area: rock;
+}
+.rockclass {
+    height: 100%;
+    width: 100%;
+}
+.photographytext {
+    background-color: #D7C0CB;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: -10px 8px 5px -5px black;
+    grid-area: phototext;
+}
+.miniatureclass{
+    height: 100%;
+    width: 100%;
+}
+.miniature {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -10px 8px 5px -5px black;
+    grid-area: mini;
+}
+.author {
+    background-color: #EECDF9;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: -10px 8px 5px -5px black;
+    grid-area: author;
+}
+.portrait {
+    float: right;
+    padding: 10px;
+}
+.gridwrapper {
+    font-family: 'Barlow', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 13px;
+    grid-template-areas:
+        "header header header header header header"
+        "welcome welcome welcome rock rock rock"
+        "phototext phototext mini mini author author";
+}

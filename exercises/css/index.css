@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    line-height: 1.8em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    background-color: #FBD8D8;
+    padding: 25px;
+}
