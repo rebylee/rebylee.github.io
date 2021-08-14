@@ -193,7 +193,7 @@ a:active {
         "writingsample" "code" "exercise";
 }
 
-/***********************WRITING SAMPLES & CODING PROJECTS PAGE**************************/
+/**************************WRITING SAMPLES & CODING PROJECTS PAGE***************************/
 .samples {
     font-family: 'Italiana', serif;
     text-align: center;
@@ -217,12 +217,20 @@ p {
     text-align: center;
 }
 
+.textdesc {
+    font-family: 'Roboto', sans-serif;
+}
+
 .readlink {
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
     font-size: 19px;
+}
+
+.button {
+    font-weight: bold;
 }
 
 a.button:link {
@@ -279,9 +287,23 @@ a.button:hover {
         "post1" "post2" "case";
 }
 
+/******************************WRITING SAMPLES PAGE (GRID)*********************************/
+.gridwrapper3 {
+    font-family: 'Italiana', serif;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: minmax(100px, auto);
+    grid-row: 15;
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 120px;
+    grid-template-areas:
+        "post1" "post2" "case";
+}
+
 /*********************************HTML/CSS EXERCISES PAGE***********************************/
 .list {
-    font-family: 'Italiana', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
     line-height: 1.8em;
 }
@@ -363,30 +385,49 @@ a.button:hover {
 }
 
 .aboutdesc {
-    font-family: 'Italiana', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 50px;
     margin-left: 350px;
     margin-right: 300px;
 }
 
-.contact {
-    font-family: 'Italiana', serif;
-    font-size: 22px;
-    text-align: center;
-    padding-top: 50px;
+/**********************************RESUME PAGE*************************************/
+.styledres {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.resumeheader1 {
+    font-size: 30px;
+}
+
+.resumeheader2 {
+    font-size: 24px;
+    text-align: left;
 }
 
 .resume {
-    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.resumelist {
+    font-size: 20px;
+}
+
+.resbutton {
+    font-family: 'Italiana', serif;
+    font-weight: bold;
 }
 
 a.resbutton:link {
     color: #FF1493;
     border: 1px solid #FF1493;
     background-color: #fff3fc;
-    padding: 10px;
+    padding: 15px;
     position: relative;
     bottom: 19px;
     border-radius: 40px;
@@ -409,4 +450,11 @@ a.resbutton:hover {
     color: #404AFF;
     border: 1px solid #404AFF;
     background-color: #D5D7F9;
+}
+
+.contact {
+    font-family: 'Italiana', serif;
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 25px;
 }
