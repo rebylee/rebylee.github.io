@@ -194,12 +194,6 @@ a:active {
 }
 
 /**************************WRITING SAMPLES & CODING PROJECTS PAGE***************************/
-@media (max-width: 600px) {
-    gridwrapper2 {
-        width: 100%
-    }
-}
-
 .samples {
     font-family: 'Italiana', serif;
     text-align: center;
