@@ -298,7 +298,15 @@ a.button:hover {
     grid-auto-rows: minmax(50px, auto);
     grid-gap: 120px;
     grid-template-areas:
-        "post1" "post2" "case";
+        "post1" "post2" "case"
+        "post 4" "post 5" "post 6"
+        "post 7" "post 8" "post 9"
+        "post 10" "post 11" "post 12"
+        "post 13" "post 14" "post 15";
+}
+
+img {
+    height: 200px;
 }
 
 /*********************************HTML/CSS EXERCISES PAGE***********************************/
